@@ -56,10 +56,10 @@ img{
 
 .btn-whatsapp{
 	margin-left: 2rem;
-	border: 1px solid green;
+	border: 1px solid lime;
 	padding: .5rem 1rem;
 	color:white;
-	background-color:green;
+	background-color:lime;
 	text-decoration: none;
 	border-radius: 15px;
 	font-weight: bold;
@@ -67,7 +67,7 @@ img{
 
 .btn-email{
 	border: 1px solid #0089B8;
-	padding: .5rem 8rem;
+	padding: .5rem 6rem;
 	color:white;
 	text-decoration: none;
 	border-radius: 15px;
