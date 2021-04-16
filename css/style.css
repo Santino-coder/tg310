@@ -1,0 +1,189 @@
+
+img{
+	width: 100%;
+	height: auto;
+	
+}
+
+.container{
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.flex{
+	display: flex;
+	
+}
+.flex-col{
+	flex-flow: column;
+}
+.justify-between{
+
+	justify-content: space-between;
+}
+.justify-center{
+
+	justify-content: center;
+}
+.items-center{
+	align-items: center;
+}
+
+.logo{
+	width: 150px;
+	display: block;
+}
+
+.header{
+	position: absolute;
+	width: 100%;
+	padding: 1rem 0;
+	z-index: 10;
+
+}
+
+.horario{
+	margin-top: 80px;
+	font-size: 25px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	
+}
+
+.correos{
+	margin-top: 80px;
+	font-size: 25px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main ul{
+	list-style: none;
+}
+
+
+
+.btn-whatsapp{
+	margin-left: 2rem;
+	border: 1px solid lime;
+	padding: .5rem 1rem;
+	color:white;
+	background-color:lime;
+	text-decoration: none;
+	border-radius: 15px;
+	font-weight: bold;
+}
+
+.btn-facebook{
+	border: 1px solid #0089B8;
+	padding: .5rem 1.5rem;
+	color:white;
+	text-decoration: none;
+	border-radius: 15px;
+	background-color: #0089B8;
+	font-weight: bold;
+}
+
+.banner{
+	height: 50vh;
+	position: relative;
+	color:white;
+}
+
+.banner .container{
+	height: 100%;
+}
+
+
+.bg{
+	background-image: url('../img/auto.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+	
+}
+.overlay{
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+}
+.info{
+	max-width: 600px;
+	text-align: center;
+}
+
+.info h2{
+	font-size: 3rem;
+	font-weight: 100;
+}
+
+.info h2 span{
+	font-weight: bold;
+}
+
+.section-info{
+	background-color: #DAF3EE;
+	padding: 3rem 0;
+}
+.section-info .texto{
+	font-size: 2rem;
+	max-width: 230px;
+}
+
+.main{
+	padding: 6rem 0;
+}
+
+.main-content, .main-img{
+	width: 50%;
+}
+.main-content{
+	padding-right: 2.5rem;
+	line-height: 32px;
+}
+.main-content h3{
+	font-size: 2rem;
+	margin-top: 0;
+}
+.main-img{
+	height: 450px;
+
+}
+.main-img img{
+	height: 100%;
+	object-fit: cover;
+}
+
+.servicios{
+	padding: 1rem 0;
+	text-align: center;
+}
+
+
+.servicios h3{
+	font-size: 2rem;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
+
+.servicio h4{
+	margin-bottom: 5px;
+}
+.servicio p{
+	margin-top: 5px;
+}
+.servicio-img{
+	height: 450px;
+}
+
+.servicio-img img{
+	height: 100%;
+	object-fit: cover;
+}
