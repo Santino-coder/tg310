@@ -49,16 +49,9 @@ img{
 	
 }
 
-.correos{
-	margin-top: 80px;
-	font-size: 25px;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
 .main ul{
 	list-style: none;
 }
-
 
 
 .btn-whatsapp{
@@ -66,7 +59,7 @@ img{
 	border: 1px solid lime;
 	padding: .5rem 1rem;
 	color:white;
-	background-color:lime;
+	background-color:green;
 	text-decoration: none;
 	border-radius: 15px;
 	font-weight: bold;
